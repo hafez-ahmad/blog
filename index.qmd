@@ -10,3 +10,9 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+git commit -m "comments"
+
+git add .
+
+git push -f origin master
