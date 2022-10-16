@@ -1,13 +1,11 @@
 ---
-title: "Ecological data analysis with R"
+title: "Basic R"
 author: "Hafez Ahmad"
 date: "2022-10-16"
 categories: [news, code, analysis]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
-
 ```{r}
-1 + 1
+1+2
 ```

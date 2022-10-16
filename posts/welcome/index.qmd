@@ -1,6 +1,6 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+author: "Hafez Ahmad"
 date: "2022-10-13"
 categories: [news]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About me"
 image: profile.jpg
 about:
   template: jolla
@@ -13,7 +13,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
 ---
 
-About this blog
+Hi, I\'m Hafez Ahmad
+
+
+Personal Website for Regular Writing, Training,and Teaching
+
+
+Experienced in Project Management,Observational Oceanography,Marine Community Ecology, Geoinformatics, Wildlife habitat management, Hydrology and Remote Sensing,Strategic Planning, and Data Analysis , and problem solving with automation (Python, R, MATLAB, Julia, Google Earth Engine, ArcGIS, Adobe Illustrator, Excel).I am passionate about physical Oceanographic ,Marine Ecology, Aquatic wild habitats ,coastal Development Research and Machine learning . I will be happy to be part of your Research Groups.I have a Bachelor's Degree in Oceanography from the Faculty of Marine Science and Fisheries, [University of Chittagong ,Bangladesh](https://cu.ac.bd) and I was also an Exchange student at [Florida Gulf Coast University, Florida, USA](https://www.fgcu.edu/)I am currently Graduate student at  [ Mississippi State University,Mississippi, USA](https://www.msstate.edu/). More information about my Research and Activities can be found at Education section.
