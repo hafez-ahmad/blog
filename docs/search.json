@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "My Posts",
     "section": "",
-    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 13, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\nNo matching items"
+    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -30,6 +30,69 @@
   {
     "objectID": "posts/Basic R/index.html",
     "href": "posts/Basic R/index.html",
+    "title": "Basic R",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/Machine learning/index.html",
+    "href": "posts/Machine learning/index.html",
+    "title": "Machine learning",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/PCA/index.html",
+    "href": "posts/PCA/index.html",
+    "title": "PCA",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/Analysis of Argo Float Data in the Bay of Bengal/index.html",
+    "href": "posts/Analysis of Argo Float Data in the Bay of Bengal/index.html",
+    "title": "Analysis of Argo Float Data in the Bay of Bengal",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/Ecological modeling/index.html",
+    "href": "posts/Ecological modeling/index.html",
+    "title": "Ecological modeling",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/How to Make Dynamic Maps with python/index.html",
+    "href": "posts/How to Make Dynamic Maps with python/index.html",
+    "title": "How to Make Dynamic Maps with python",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/Making temperature-salinity diagrams/index.html",
+    "href": "posts/Making temperature-salinity diagrams/index.html",
+    "title": "Making temperature-salinity diagrams",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/Popular R packages used in Oceanography, Fisheries and environmental science/index.html",
+    "href": "posts/Popular R packages used in Oceanography, Fisheries and environmental science/index.html",
+    "title": "Basic R",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/Practical Ecological data analysis with R/index.html",
+    "href": "posts/Practical Ecological data analysis with R/index.html",
+    "title": "Basic R",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/World bioclimatic Data downloading, analysis and visualization/index.html",
+    "href": "posts/World bioclimatic Data downloading, analysis and visualization/index.html",
     "title": "Basic R",
     "section": "",
     "text": "1+2\n\n[1] 3"

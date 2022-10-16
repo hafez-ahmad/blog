@@ -11,3 +11,9 @@ You will find basic R codes
 ```{r}
 1+2
 ```
+
+git commit -m "comments"
+
+git add .
+
+git push -f origin master
