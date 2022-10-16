@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "My Posts",
     "section": "",
-    "text": "git add .\ngit push -f origin master\n\n\n\n\n\n\n\n\n  \n\n\n\n\nBasic R\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\nEcological data analysis with R\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 13, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\nNo matching items"
+    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 16, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 13, 2022\n\n\nHafez Ahmad\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/Basic R/index.html",
+    "href": "posts/Basic R/index.html",
+    "title": "Basic R",
+    "section": "",
+    "text": "1+2\n\n[1] 3"
   }
 ]
