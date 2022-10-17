@@ -119,6 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -201,13 +202,134 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <p>You will find basic R codes</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">+</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>wildtype<span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">103</span>,<span class="dv">1125</span>,<span class="dv">504</span>,<span class="dv">608</span>,<span class="dv">794</span>,<span class="dv">698</span>,<span class="dv">920</span>,<span class="dv">535</span>,<span class="dv">842</span>,<span class="dv">765</span>,<span class="dv">945</span>,<span class="dv">1005</span>,<span class="dv">724</span>,<span class="dv">498</span>,<span class="dv">727</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(wildtype)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 3</code></pre>
+<pre><code> [1]  103 1125  504  608  794  698  920  535  842  765  945 1005  724  498  727</code></pre>
 </div>
 </div>
+<p>#2. Create variable called “resistant”—-</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>resistant<span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">768</span>, <span class="dv">230</span>, <span class="dv">854</span> ,<span class="dv">637</span>,<span class="dv">426</span>, <span class="dv">482</span>, <span class="dv">1118</span>, <span class="dv">524</span>, <span class="dv">604</span> ,<span class="dv">730</span> ,<span class="dv">17</span> ,<span class="dv">421</span>, <span class="dv">587</span>, <span class="dv">782</span> ,<span class="dv">171</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(resistant)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  768  230  854  637  426  482 1118  524  604  730   17  421  587  782  171</code></pre>
+</div>
+</div>
+<p>#3. combine the the vectors into data frame called “miner”—-</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>miner<span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="st">"wild"</span><span class="ot">=</span>wildtype,<span class="st">"resist"</span><span class="ot">=</span>resistant)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(miner)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   wild resist
+1   103    768
+2  1125    230
+3   504    854
+4   608    637
+5   794    426
+6   698    482
+7   920   1118
+8   535    524
+9   842    604
+10  765    730
+11  945     17
+12 1005    421
+13  724    587
+14  498    782
+15  727    171</code></pre>
+</div>
+</div>
+<p>#4. Calculate the mean and variance of the wildtype and resistant from the data frame “miner”—-</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"The mean of wildtype is "</span>,<span class="fu">round</span>(<span class="at">x=</span><span class="fu">mean</span>(miner<span class="sc">$</span>wild),<span class="at">digits=</span><span class="dv">3</span>),<span class="st">" and the variance is "</span>,<span class="fu">round</span>(<span class="at">x=</span><span class="fu">var</span>(miner<span class="sc">$</span>wild),<span class="at">digits=</span><span class="dv">3</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "The mean of wildtype is 719.533 and the variance is 63014.552"</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"The mean of resistant is "</span>,<span class="fu">round</span>(<span class="at">x=</span><span class="fu">mean</span>(miner<span class="sc">$</span>resist),<span class="at">digits=</span><span class="dv">3</span>),<span class="st">" and the variance is "</span>,<span class="fu">round</span>(<span class="at">x=</span><span class="fu">var</span>(miner<span class="sc">$</span>resist),<span class="at">digits=</span><span class="dv">3</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "The mean of resistant is 556.733 and the variance is 80529.21"</code></pre>
+</div>
+</div>
+<section id="write-a-function-for-standard-error-called-stderror-" class="level1">
+<h1>5. write a function for standard error called “stderror”—-</h1>
+<p>formula for standard error is standard deviation/square root ($ {(n)}$) of sample size</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>stderror<span class="ot">&lt;-</span> <span class="cf">function</span>(x,<span class="at">n=</span><span class="fu">length</span>(x)){</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">sd</span>(x)<span class="sc">/</span><span class="fu">sqrt</span>(n))</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>#…apply the function to the data frame “miner”—-</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"The standard error of wildtype is "</span>,<span class="fu">round</span>(<span class="at">x=</span><span class="fu">stderror</span>(miner<span class="sc">$</span>wild),<span class="at">digits=</span><span class="dv">3</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "The standard error of wildtype is 64.815"</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"The standard error of resistant is "</span>,<span class="fu">round</span>(<span class="at">x=</span><span class="fu">stderror</span>(miner<span class="sc">$</span>resist),<span class="at">digits=</span><span class="dv">3</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "The standard error of resistant is 73.271"</code></pre>
+</div>
+</div>
+<p>#6. write a function for growth rate called “rate” —-</p>
+<p>where, nt is the vector abunace at t,ntplus the vector of abunance at year t+1 and t for vector of years and return plot for growth rate … load data from laptop</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>abundance <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"E:/1 Master's/MSU/course classes/Fall 2022/WFA 8134 RMethod/code/abundance.csv"</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(abundance)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  year abundance nextabundance
+1    1        10           215
+2    2       215           105
+3    3       105           277
+4    4       277            44
+5    5        44            34
+6    6        34            44</code></pre>
+</div>
+</div>
+<p>#… write that functions</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>rate<span class="ot">&lt;-</span> <span class="cf">function</span>(dataframe){</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    nt<span class="ot">&lt;-</span> dataframe<span class="sc">$</span>abundance <span class="co"># abundance at t</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    ntplus<span class="ot">&lt;-</span> dataframe<span class="sc">$</span>nextabundance <span class="co"># abundance at t+1</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    t<span class="ot">&lt;-</span> dataframe<span class="sc">$</span>year <span class="co"># vector of years</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    growthrate<span class="ot">&lt;-</span> <span class="fu">log</span>(ntplus<span class="sc">/</span>nt) <span class="co"># growth rate</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">plot</span>(t,growthrate,<span class="at">type=</span><span class="st">"l"</span>,<span class="at">xlab=</span><span class="st">"Year"</span>,<span class="at">ylab=</span><span class="st">"Growth rate"</span>,<span class="at">main=</span><span class="st">"Growth rate of abundance"</span>)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(growthrate)</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>#… apply it over the dataframe</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rate</span>(abundance)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  3.068052935 -0.716677678  0.970057156 -1.839827872 -0.257829109
+ [6]  0.257829109  2.087928156  0.514761530 -1.068759326 -0.807260487
+[11]  0.836248024  0.762140052 -0.179658439  0.644091024 -0.073893126
+[16] -0.055655784 -0.024136329 -0.048383081  0.196466064  0.061285342
+[21] -0.114650563  0.110679677  0.027470661  0.053999307  0.082109406
+[26]  0.239229689 -0.429692403  0.038749003 -0.059396674  0.336869535
+[31]  0.179503953 -0.049329729 -0.224888752 -0.071256817 -0.135375329
+[36] -0.106106506 -0.007490672  0.151784833  0.033039854  0.103233255
+[41]  0.130850237  0.085278918 -0.016483890 -0.231721325  0.105942418
+[46]  0.010416761  0.114438358  0.050461155 -0.005286356 -0.084765267</code></pre>
+</div>
+<div class="cell-output-display">
+<div id="fig-growth_rate_plot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="index_files/figure-html/fig-growth_rate_plot-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption class="figure-caption">Figure 1: Calculated Growth rate of abundance dataframe using following formula<span class="math inline">\(r=ln(Nt+1)/Nt\)</span>.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<pre class="{1+2}"><code></code></pre>
+<p>git commit -m “comments”</p>
+<p>git add .</p>
+<p>git push -f origin master</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

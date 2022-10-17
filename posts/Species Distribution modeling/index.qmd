@@ -1,5 +1,5 @@
 ---
-title: "Basic R"
+title: "species distribution modeling"
 author: "Hafez Ahmad"
 date: "2022-10-16"
 categories: [news, code, analysis]
@@ -92,7 +92,7 @@ rate<- function(dataframe){
 rate(abundance)
 ```
 
-```{1+2}
+``` {1+2}
 ```
 
 git commit -m "comments"
