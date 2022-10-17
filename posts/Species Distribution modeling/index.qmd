@@ -1,5 +1,5 @@
 ---
-title: "species distribution modeling"
+title: "Species distribution modeling"
 author: "Hafez Ahmad"
 date: "2022-10-16"
 categories: [news, code, analysis]
