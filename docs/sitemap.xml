@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hafez-ahmad.github.io/index.html</loc>
-    <lastmod>2022-10-17T00:53:43.727Z</lastmod>
+    <lastmod>2022-10-17T01:06:38.493Z</lastmod>
   </url>
   <url>
     <loc>https://hafez-ahmad.github.io/about.html</loc>
-    <lastmod>2022-10-17T00:45:38.666Z</lastmod>
+    <lastmod>2022-10-17T01:05:17.069Z</lastmod>
   </url>
   <url>
     <loc>https://hafez-ahmad.github.io/posts/Species Distribution modeling/index.html</loc>
-    <lastmod>2022-10-17T00:27:20.937Z</lastmod>
+    <lastmod>2022-10-17T01:05:20.657Z</lastmod>
   </url>
   <url>
     <loc>https://hafez-ahmad.github.io/posts/Basic R/index.html</loc>
-    <lastmod>2022-10-17T00:49:13.879Z</lastmod>
+    <lastmod>2022-10-17T01:06:42.789Z</lastmod>
   </url>
   <url>
     <loc>https://hafez-ahmad.github.io/posts/post-with-code/index.html</loc>
@@ -23,5 +23,9 @@
   <url>
     <loc>https://hafez-ahmad.github.io/posts/Machine learning/index.html</loc>
     <lastmod>2022-10-17T00:53:35.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hafez-ahmad.github.io/posts/Analysis of Argo Float Data in the Bay of Bengal/index.html</loc>
+    <lastmod>2022-10-17T01:06:59.118Z</lastmod>
   </url>
 </urlset>
